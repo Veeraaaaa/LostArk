@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lost Ark</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic&display=swap');
+    </style>
+
+
+    <title>Lost Ark</title>
+
+    <style>
+        body {
+            font-family: 'Gowun Dodum', 'Nanum Gothic', serif;
+            margin: 0;
+            line-height: 25px;
+            font-size: 18px;
+        }
+
+        #nav {
+            background-color: #ffffff;
+            color: #F59191;
+            float: left;
+            width: 18%;
+            position: fixed;
+            border: 1px solid #F59191;
+            margin: 2%;
+        }
+
+        #nav2 {
+            width: 22%;
+            height: 100%;
+            float: left;
+        }
+
+        #section {
+            text-align: left;
+            float: left;
+            width: 70%;
+            padding: 20px;
+            border-left: 1px solid #F59191;
+        }
+
+        #footer {
+            height: 200px;
+
+        }
+
+        #nav,
+        #section,
+        #footer {
+            text-align: left;
+        }
+
+        #footer {
+            line-height: 100px;
+        }
+
+
+        #nav ol {
+            margin: 0px;
+            padding: 10px;
+            padding-right: 20px;
+            padding-left: 40px;
+            font-size: 25px;
+            font-weight: bold;
+            line-height: 40px;
+
+        }
+
+        #doc a,
+        #nav a {
+            color: #F59191;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #doc li {
+            border-bottom: 1px solid #F59191;
+            padding-bottom: 5px;
+        }
+
+        #doc td {
+            text-align: center;
+        }
+
+        #verawiki {
+            background-color: #F59191;
+            color: white;
+            display: block;
+            padding: 20px;
+            font-weight: bold;
+            align-items: center;
+            margin: 0;
+        }
+
+        #lostark {
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+            font-size: 40px;
+            color: black;
+            border-bottom: 1px solid #F59191;
+        }
+
+        #lostark a {
+            color: black;
+            text-decoration: none;
+        }
+
+        table {
+            color: #d2b492;
+            background-color: #201e1f;
+            font-size: 16px;
+            font-weight: lighter;
+            text-align: center;
+            width: 80%;
+            height: 50px;
+            border: 2px solid #744F00;
+            border-collapse: collapse;
+            margin: 30px;
+        }
+
+        #맨위 td {
+            color: black;
+            text-align: left;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #doc td {
+            color: black;
+            padding: 10px;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid gray;
+            text-align: center;
+            padding: 5px;
+        }
+
+        #doc img {
+            width: 80%;
+        }
+
+        #지역 li {
+            display: table;
+            counter-increment: item;
+            margin-bottom: 0.6em;
+            border-bottom: none;
+            padding-bottom: 0px;
+        }
+
+        #지역 li:before {
+            content: counters(item, ".") ". ";
+            display: table-cell;
+            padding-right: 0.6em;
+        }
+
+        #지역 ol {
+            list-style-type: none;
+            counter-reset: item;
+            margin: 0;
+        }
+
+        #지역 ol:before {
+            content: (".");
+        }
+
+        #지역 li li {
+            margin: 5px;
+        }
+
+        #지역 li li:before {
+            content: counters(item, ".") ". ";
+        }
+
+        #지역 ol ol {
+            padding-left: 10px;
+        }
+
+        #지역 ol ol ol {
+            padding-left: 0px;
+        }
+
+        #footer img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 id="verawiki">❤ VeraWiki ❤</h3>
+    <h1 id="lostark"><a href="index.html"><a style="color: #F59191;">❤</a> 로스트아크 <a style="color: #F59191;">❤</a></a>
+    </h1>
+    <div id="nav">
+        <ol id="목차">
+            <a href="#개요">
+                <li>개요</li>
+            </a>
+            <a href="#시스템요구사항">
+                <li>시스템 요구 사항</li>
+            </a>
+            <a href="#스토리">
+                <li>스토리</li>
+            </a>
+            <a href="#등장인물">
+                <li>등장인물</li>
+            </a>
+            <a href="#서버">
+                <li>서버</li>
+            </a>
+            <a href="#클래스">
+                <li>클래스</li>
+            </a>
+            <a href="#지역">
+                <li>지역</li>
+            </a>
+        </ol>
+    </div>
+    <div id="nav2">
+        <p></p>
+    </div>
+
+    <div id="section">
+        <table id="맨위">
+            <tr>
+                <td colspan="2" style="color: #d2b492; padding : 20px; text-align: center;background-color: #201e1f;">
+                    <span style="font-size: 30px; font-weight: bold;">로스트아크</span><br>LOST ARK
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2"><img src="메인.png" style="width: 100%;"></th>
+            </tr>
+            <tr>
+                <th>개발</th>
+                <td><img src="스마일게이트.svg" style="width: 200px;"></td>
+            </tr>
+            <tr>
+                <th>장르</th>
+                <td>MMORPG</td>
+            </tr>
+            <tr>
+                <th>디렉터</th>
+                <td>초대 금강선 (2018 ~ 2022)<br>2대 김상복, 전재학, 이병탁 (2022 ~)</td>
+            </tr>
+            <tr>
+                <th>출시</th>
+                <td><img src="korea.svg" width="25px"> 2019년 12월 4일</td>
+            </tr>
+            <tr>
+                <th>게임 엔진</th>
+                <td style="padding-bottom: 0px ;"><img src="언리얼엔진.svg" width="200px"></td>
+            </tr>
+            <tr>
+                <th>한국어 지원</th>
+                <td>자막, 음성 한국어화</td>
+            </tr>
+            <tr>
+                <th>관련 사이트</th>
+                <td style="padding-bottom: 5px ;">
+                    <p style="margin: 0;"><a href="https://lostark.game.onstove.com/Main" target="_blank"><img src="나무위키.svg" width="30px"></a>　<a href="https://www.youtube.com/channel/UCL3gnarNIeI_M0cFxjNYdAA" target="_blank"><img src="유튜브.svg" width="32px"></a>　<a href="https://www.twitch.tv/lostark_kr" target="_blank"><img src="트위치.svg" width="21px"></a>　<a href="https://www.facebook.com/LOSTARK.official" target="_blank"></a><img src="페이스북.svg" width="25px"></a>    </p>
+                </td>
+            </tr>
+        </table>
+        <ol id="doc">
+            <a href="목차">
+                <li id="개요">개요</li>
+            </a>
+            <p><img src="트리시온.jpg"></p>
+            <p>스마일게이트 RPG가 개발한 쿼터뷰 액션 MMORPG다. 2014년 11월 12일 최초 공개했으며 2018년 11월 7일부터 오픈 베타 테스트를 진행하였으며 2019년 12월 4일 정식
+                오픈했다. 이후 러시아, 일본, 글로벌 서버 순으로 런칭하였다.</p>
+            <p>플랫폼은 PC 하나뿐이지만 모바일과 콘솔 등 각종 플랫폼으로도 개발을 진행하고 있다는 기사가 존재한다.</p>
+            <br>
+
+            <a href="#목차">
+                <li id="시스템요구사항">시스템 요구 사항</li>
+            </a>
+            <p>
+            <table>
+                <tr>
+                    <th colspan="3">시스템 요구 사항</th>
+                </tr>
+                <tr>
+                    <th>구분</th>
+                    <th>최소 사양</th>
+                    <th>권장 사양</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Windows</th>
+                </tr>
+                <tr>
+                    <th>운영체제</th>
+                    <td>Windows 7 SP1 이상</td>
+                    <td>Windows 10</td>
+                </tr>
+                <tr>
+                    <th>프로세서</th>
+                    <td>인텔 코어 i3 이상<br>AMD 라이젠 3 이상</td>
+                    <td>인텔 코어 i5 이상<br> AMD 라이젠 5 이상</td>
+                </tr>
+                <tr>
+                    <th>메모리</th>
+                    <td>8GB 이상</td>
+                    <td>16GB 이상</td>
+                </tr>
+                <tr>
+                    <th>그래픽<br>카드</th>
+                    <td>NVIDIA GeForce GTX 460 혹은<br>AMD Radeon HD 6850 이상</td>
+                    <td><strong>1080p FHD</strong><br>NVIDIA GeForce GTX 1050<br>AMD Radeon RX560 2G 이상<strong><br>1440p
+                            QHD</strong><br>NVIDIA GeForce RTX 2070<br>AMD Radeon RX5700XT 이상<br><strong>Ultra Specs(4K,
+                            UHD)</strong><br>NViDIA GeForce RTX 2080AMD Radeon RX 6800 이상</td>
+                </tr>
+                <tr>
+                    <th>API</th>
+                    <td colspan="2">DirectX 9.0c (2010 June) 이상,<br>DirectX 11.0 병행 지원</td>
+                </tr>
+                <tr>
+                    <th>저장<br>공간</th>
+                    <td colspan="2">50GB 이상</td>
+                </tr>
+
+            </table>
+            </p>
+            <p>정식 오픈 기준 시점으로 최적화는 준수한 편으로, 권장 사양을 지킨다면 원활하게 플레이 가능하다. 2011년 이후에 나온 쿼드코어 이상의 CPU와 16기가 정도의 램을 갖춘
+                컴퓨터로도 대규모 전투를 연출한 상황에서 프레임이 조금 떨어지는 수준이다. 다만, QHD 이상 해상도에서 공식 요구사항이 극단적으로 높아지는 것을 볼수 있는데, 60프레임
+                완전 보장을 기준으로 설명된 것으로 추정된다. 실제 플레이 상황에선 FHD 해상도와, 모든 옵션 최상을 기준으로 6세대 이후의 인텔 CPU, 라이젠 이후의 AMD CPU와
+                GTX1060 정도의 사양으로도 원활한 플레이가 가능하다. UHD 이상급 해상도에선 2080급 이상의 그래픽 카드 사용을 권장한다.</p>
+            <p>과거엔 요구 사양에 라데온 그래픽카드를 아예 배제했었는데, 구형 API (DX9) 사용, 강제 수직동기화 활성화에 조절도 불가능한 점과 더불어 성능 문제가 심해서 아예
+                DXVK로 돌리는 게 훨씬 나을 정도. 수직동기화도 DXVK config로 해제할 수 있다는 소소한 장점은 덤이다. 사실 스타크래프트 2와 달리 지포스에서도 DXVK쪽의
+                성능이 더 높다. 반대로 DXVK가 안 통하고 라데온 지연 방지를 써야 하는 경우도 있다고 한다.</p>
+            <p> 2021년 12월 하순에 실시된 DirectX 11 지원 업데이트 이후로 이 문제점들이 상당히 해소되었고 요구사양에 라데온 그래픽카드가 추가되었다.</p>
+            <br>
+
+            <a href="#목차">
+                <li id="스토리">스토리</li>
+            </a>
+            <p>자세한 내용은 <a href="story.html" style=" font-size:18px;">로스트아크/스토리</a>를 참고하십시오.</p>
+            <br>
+
+            <a href="#목차">
+                <li id="등장인물">등장인물</li>
+            </a>
+            <p>자세한 내용은 <a href="story.html" style=" font-size:18px;">로스트아크/등장인물</a>을 참고하십시오.</p>
+            <br>
+
+            <a href="#목차">
+                <li id="서버">서버</li>
+            </a>
+            <p>오픈 베타 테스트 시작일인 2018년 11월 7일, 초창기 루페온, 이그하람, 기에나, 시리우스 서버로 시작되어, 몇 차례의 서버 추가와 통합을 거쳐 2022년 1월 기준
+                8개의 서버가 존재한다.</p>
+            <p>2018년 11월 24일 서버 증설 관련 점검 이후 기존서버 수용 인원 및 신규 서버 증설로 대기열이 현저히 줄어들었다. 피크타임인 평일 오후 7시~10시, 주말 오후 1시~
+                의 평균 대기열이 14000~18000명 정도였는데 11월 24일 서버 증설 이후 최대 2000~5000명 정도로 줄어들어 버틸만한 정도가 되었다. 그리고 12월 13일
+                평일 피크타임(오후 8시에서 9시정도)에는 최초의 4개 서버(루페온, 이그하람, 기에나, 시리우스) 정도만 대기인원이 1000명 정도 되고 나머지 서버는 없다시피 한다.
+                대기열 1000명 정도면 한 10분에서 15분 정도 기다리면 접속이 되니, 오픈 베타 때에 비하면 많이 줄었다. 12월 29일 현재 이러한 대기열 문제가 완벽히 해결됐다.
+                오히려 2019년 1월부터 몇몇 도시섭을 제외한 다른 서버들의 활동 인구 감소를 보였다.</p>
+            <p>2019년 4월 3일, 일부 서버의 통합이 이루어졌다. 통합 내용은 다음과 같다</p>
+            <ul>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">아크투르스, 안타레스 서버가 통합됩니다.
+                </li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">에버그레이스, 베아트리스 서버가 통합됩니다.
+                </li>
+            </ul>
+            <p>2019년 7월 17일 본 서버를 제외한 나머지 서버의 통합이 이루어졌다. 통합 내용은 다음과 같다.</p>
+            <ul>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">이그하람, 알데바란 서버가 통합됩니다.
+                </li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">기에나, 프로키온 서버가 통합됩니다.
+                </li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">시리우스, 크라테르 서버가 통합됩니다.
+                </li>
+            </ul>
+            <p>이후 카단, 니나브 서버가 추가되었다.</p>
+            <p>현재 서버 목록은 다음과 같다.</p>
+            <ul>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">루페온</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">실리안</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">아만</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">카마인</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">카제로스</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">아브렐슈드</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">카단</li>
+                <li style="font-size: 18px; font-weight: lighter; border-bottom: none;">니나브</li>
+            </ul>
+            <br>
+
+            <a href="#목차">
+                <li id="클래스">클래스</li>
+            </a>
+            <p>자세한 내용은 <a href="story.html" style=" font-size:18px;">로스트아크/클래스</a>를 참고하십시오.</p>
+            <br>
+
+            <a href="#목차">
+                <li id="지역">지역</li>
+            </a>
+
+            <p>로스트아크의 우주는 질서의 신 루페온이 창조한 질서의 세계 대우주 오르페우스에 속하는 생명의 별 아크라시아, 혼돈의 세계에서 어둠의 생명이 스스로를 분열시켜 어둠의 생명을
+                창조하여 만들어진 어둠의 별 페트라니아로 나뉜다.</p>
+            <div id="지역">
+                <ol>
+                    <li>오르페우스
+                        <ol>
+                            <li>아르테미스</li>
+                            <li>유디아</li>
+                            <li>루테란</li>
+                            <li>토토이크</li>
+                            <li>애니츠</li>
+                            <li>아르데타인</li>
+                            <li>베른 북부</li>
+                            <li>슈사이어</li>
+                            <li>로헨델</li>
+                            <li>욘</li>
+                            <li>페이튼</li>
+                            <li>파푸니카</li>
+                            <li>베른 남부</li>
+                            <li>로웬</li>
+                            <li>천공섬 엘가시아</li>
+                            <li>플레체</li>
+                            <li>볼다이크</li>
+                            <li>트루아</li>
+                            <li>트리시온</li>
+                            <li>섬</li>
+                        </ol>
+                    </li>
+                    <li>혼돈의 세계
+                        <ol>
+                            <li>페트라니아</li>
+                        </ol>
+            </div>
+        </ol>
+    </div>
+    <div id="footer">
+
+        <img src="광고.jpg">
+
+    </div>
+</body>
+
+</html>
